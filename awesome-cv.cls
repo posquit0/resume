@@ -45,7 +45,10 @@
 
 %-------------------------------------------------------------------------------
 %                3rd party packages
-%-------------------------------------------------------------------------------
+%                -------------------------------------------------------------------------------
+% Telephone numbers
+\RequirePackage{phonenumbers}
+\RequirePackage{multicol}
 % Needed to make fixed length table
 \RequirePackage{array}
 % Needed to handle list environment
@@ -74,7 +77,7 @@
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
 % (https://github.com/posquit0/latex-fontawesome)
-\RequirePackage{fontawesome}
+\RequirePackage{fontawesome5}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
@@ -88,14 +91,6 @@
   pdfsubject={},
   pdfkeywords={}
 }
-
-
-%-------------------------------------------------------------------------------
-%                Configuration for directory locations
-%-------------------------------------------------------------------------------
-% Configure a directory location for fonts(default: 'fonts/')
-\newcommand*{\fontdir}[1][fonts/]{\def\@fontdir{#1}}
-\fontdir
 
 
 %-------------------------------------------------------------------------------
@@ -160,11 +155,7 @@
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
-% Set the FontAwesome font to be up-to-date.
-\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
-% Set font for header (default is Roboto)
 \newfontfamily\headerfont[
-  Path=\@fontdir,
   UprightFont=*-Regular,
   ItalicFont=*-Italic,
   BoldFont=*-Bold,
@@ -172,7 +163,6 @@
 ]{Roboto}
 
 \newfontfamily\headerfontlight[
-  Path=\@fontdir,
   UprightFont=*-Thin,
   ItalicFont=*-ThinItalic,
   BoldFont=*-Medium,
@@ -458,50 +448,50 @@
       \ifthenelse{\isundefined{\@mobile}}%
         {}%
         {%
-          \faMobile\acvHeaderIconSep\@mobile%
+          \faIcon{mobile}\acvHeaderIconSep\@mobile%
           \setbool{isstart}{false}%
         }%
       \ifthenelse{\isundefined{\@email}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{mailto:\@email}{\faEnvelope\acvHeaderIconSep\@email}%
+          \href{mailto:\@email}{\faIcon{envelope}\acvHeaderIconSep\@email}%
         }%
       \ifthenelse{\isundefined{\@homepage}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%
+          \href{http://\@homepage}{\faIcon{home}\acvHeaderIconSep\@homepage}%
         }%
       \ifthenelse{\isundefined{\@github}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://github.com/\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
+          \href{https://github.com/\@github}{\faIcon{githubSquare}\acvHeaderIconSep\@github}%
         }%
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://gitlab.com/\@gitlab}{\faGitlab\acvHeaderIconSep\@gitlab}%
+          \href{https://gitlab.com/\@gitlab}{\faIcon{gitlab}\acvHeaderIconSep\@gitlab}%
         }%
       \ifthenelse{\isundefined{\@stackoverflowid}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://stackoverflow.com/users/\@stackoverflowid}{\faStackOverflow\acvHeaderIconSep\@stackoverflowname}%
+          \href{https://stackoverflow.com/users/\@stackoverflowid}{\faIcon{stackOverflow}\acvHeaderIconSep\@stackoverflowname}%
         }%
       \ifthenelse{\isundefined{\@linkedin}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\acvHeaderIconSep\@linkedin}%
+          \href{https://www.linkedin.com/in/\@linkedin}{\faIcon{linkedin}\acvHeaderIconSep\@linkedin}%
         }%
       \ifthenelse{\isundefined{\@twitter}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://twitter.com/\@twitter}{\faTwitter\acvHeaderIconSep\@twitter}%
+          \href{https://twitter.com/\@twitter}{\faIcon{twitter}\acvHeaderIconSep\@twitter}%
         }%
       \ifthenelse{\isundefined{\@skype}}%
         {}%
@@ -513,7 +503,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.reddit.com/user/\@reddit}{\faReddit\acvHeaderIconSep\@reddit}%
+          \href{https://www.reddit.com/user/\@reddit}{\faIcon{reddit}\acvHeaderIconSep\@reddit}%
         }%
       \ifthenelse{\isundefined{\@xing}}%
         {}%
@@ -525,13 +515,13 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://medium.com/@\@medium}{\faMedium\acvHeaderIconSep\@medium}%
+          \href{https://medium.com/@\@medium}{\faIcon{medium}\acvHeaderIconSep\@medium}%
         }%
       \ifthenelse{\isundefined{\@googlescholarid}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://scholar.google.com/citations?user=\@googlescholarid}{\faGraduationCap\acvHeaderIconSep\@googlescholarname}%
+          \href{https://scholar.google.com/citations?user=\@googlescholarid}{\faIcon{graduationCap}\acvHeaderIconSep\@googlescholarname}%
         }%
       \ifthenelse{\isundefined{\@extrainfo}}%
         {}%
