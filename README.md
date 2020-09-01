@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
-    <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
+  <a href="https://github.com/laeberkaes/Awesome-CV" title="AwesomeCV Documentation">
+    <img alt="AwesomeCV" src="https://github.com/laeberkaes/Awesome-CV//raw/master/icon_fork.png" width="200px" height="200px" />
   </a>
   <br />
   Awesome CV
@@ -10,69 +10,39 @@
   LaTeX template for your outstanding job application
 </p>
 
-<div align="center">
-  <a href="https://www.paypal.me/posquit0">
-    <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg" />
-  </a>
-  <a href="https://circleci.com/gh/posquit0/Awesome-CV">
-    <img alt="CircleCI" src="https://circleci.com/gh/posquit0/Awesome-CV.svg?style=shield" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
-    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
-    <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
-    <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
-  </a>
-</div>
+## Fork of Awesome CV
 
-<br />
+This is a [**fork of the original Awesome CV repository**](https://github.com/posquit0/Awesome-CV). I will implement some of my own needs. If you have some pull requests, I will merge them, if I find them productive, as the author is not maintaining the project very active.
 
 ## What is Awesome CV?
 
 **Awesome CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
 
-
-## Donate
-
-Please help keep this project alive! Donations are welcome and will go towards further development of this project.
-
-    PayPal: paypal.me/posquit0
-    BTC: 1Je3DxJVM2a9nTVPNo55SfQwpmxA6N2KKb
-    BCH: 1Mg1wG7PwHGrHYSWS67TsGSjo5GHEVbF16
-    ETH: 0x77ED9B4659F80205E9B9C9FB1E26EDB9904AFCC7
-    QTUM: QZT7D6m3QtTTqp7s4ZWAwLtGDsoHMMaM8E
-
-*Thank you for your support!*
-
 ## Preview
+
+#### Curriculum Vitae
+
+View [PDF](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/cv.pdf)
+
+| Page 1 | Page 2 |
+|:---:|:---:|
+| [![Résumé](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/cv0.png)](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/cv.pdf)  | [![Résumé](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/cv1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf) |
 
 #### Résumé
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
+View [PDF](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/resume.pdf)
 
-| Page. 1 | Page. 2 |
+| Page 1 | Page 2 |
 |:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
+| [![Résumé](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/resume0.png)](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/resume1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
 
 #### Cover Letter
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
+View [PDF](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/coverletter.pdf)
 
-| Without Sections | With Sections |
+| Page 1 | Page 2 |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
-
-
-## Quick Start
-
-* [**Edit Résumé on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv/tvmzpvdjfqxp)
-* [**Edit Cover Letter on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv-cover-letter/pfzzjspkthbk)
-
-**_Note:_ Above services do not guarantee up-to-date source code of Awesome CV**
-
+| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/coverletter0.png)](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/coverletter1.png)](https://raw.githubusercontent.com/laeberkaes/Awesome-CV/master/examples/coverletter.pdf) |
 
 ## How to Use
 
@@ -91,6 +61,18 @@ $ xelatex {your-cv}.tex
 
 This should result in the creation of ``{your-cv}.pdf``
 
+##### List of Publications
+
+You can generate list of publication from [**BibTeX**](http://www.bibtex.org/) source files.
+[**BibLaTeX**](https://www.ctan.org/pkg/biblatex) and [**biber**](https://www.ctan.org/pkg/biber) should be available.
+
+To generate document with the list of publications, at a command prompt, run
+
+```bash
+$ xelatex {your-cv}.tex
+$ biber {your-cv}
+$ xelatex {your-cv}.tex
+```
 
 ## Credit
 
@@ -102,16 +84,4 @@ This should result in the creation of ``{your-cv}.pdf``
 
 [**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
 
-
-## Contact
-
-You are free to take my `.tex` file and modify it to create your own resume. Please don't use my resume for anything else without my permission, though!
-
-If you have any questions, feel free to join me at [`#posquit0` on Freenode](irc://irc.freenode.net/posquit0) and ask away. Click [here](https://kiwiirc.com/client/irc.freenode.net/posquit0) to connect.
-
-Good luck!
-
-
-## See Also
-
-* [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity) - A single-page Hugo theme to introduce yourself.
+[**posquit0**](https://github.com/posquit0) has created this project.
